@@ -17,24 +17,25 @@ public class SimpleCalculator {
 		
 		// Create components
 		
-		JLabel label1 = new JLabel("Èìÿ:");
+		JLabel label1 = new JLabel("Имя:");
 		JTextField field1 = new JTextField(7);
 		
-		JLabel label2 = new JLabel("Âåñ:");
+		JLabel label2 = new JLabel("Рост:");
 		JTextField field2 = new JTextField(7);
 		
-		JLabel label3 = new JLabel("Ðîñò:");
+		JLabel label3 = new JLabel("Вес:");
 		JTextField field3 = new JTextField(7);
 		
-		JLabel label4 = new JLabel("Âîçðàñò:");
+		JLabel label4 = new JLabel("Возраст:");
 		JTextField field4 = new JTextField(7);
 		
 		
-		JLabel label5 = new JLabel("Çíà÷åíèå IMT:");
+		
+		JLabel label5 = new JLabel("Результат IMT:");
 		JTextField result = new JTextField(7);
 		
 		JTextField result1 = new JTextField(7);
-		JButton go = new JButton("Ðàññ÷èòàòü");
+		JButton go = new JButton("Рассчитать");
 		
 		// Add components
 		
@@ -54,7 +55,7 @@ public class SimpleCalculator {
 		
 		// Create frame and set panel
 		
-		JFrame frame = new JFrame("Êàëüêóëÿòîð ÈÌÒ");
+		JFrame frame = new JFrame("Калькулятор ИМТ");
 		frame.setContentPane(windowContent);
 		
 		// Set size and do it frame visible
